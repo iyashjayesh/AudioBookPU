@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './globalComponents/Header/Header';
-import Footer from './globalComponents/Footer/Footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import home from './MainPages/Home';
 import c1 from './MainPages/c1';
@@ -27,7 +26,6 @@ function App() {
               <Route path="/chapter-five" component={c5} />
               <Route path="/chapter-six" component={c6} />
             </Switch>
-          <Footer/>
       </div>
     </BrowserRouter>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from "react-bootstrap";
 import homePage from '../../img/homePage.jpg';
+import homePage2 from '../../img/homePage2.jpg';
 import '../../App.css';
 
 
@@ -11,7 +12,7 @@ const Slider = () => {
                 <Carousel.Item interval={1200}>
                     <img
                     className="d-block w-100"
-                    src={homePage}
+                    src={homePage2}
                     alt="First slide"
                     />
                 </Carousel.Item>
@@ -25,7 +26,7 @@ const Slider = () => {
                 <Carousel.Item interval={2000}>
                     <img
                     className="d-block w-100"
-                    src={homePage}
+                    src={homePage2}
                     alt="Third slide"
                     />
                 </Carousel.Item>
